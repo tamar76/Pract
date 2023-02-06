@@ -20,35 +20,35 @@ namespace API.Controllers
         [HttpGet]
         public async Task<List<ChildDTO>> Get()
         {
-            return await _Child.GetAll();
+            return await _Child.GetAllAsync();
         }
 
         // GET api/<ChildController>/5
         [HttpGet("{id}")]
         public async Task<ChildDTO> Get(int id)
         {
-            return await _Child.GetById(id);
+            return await _Child.GetByIdAsync(id);
         }
 
         // POST api/<ChildController>
         [HttpPost]
         public async Task<ChildDTO> Post([FromBody] ChildDTO value)
         {
-            return await _Child.Add(value);
+            return await _Child.AddAsync(value);
         }
 
-        // PUT api/<ChildController>/5//
+        // PUT api/<ChildController>/5/
         [HttpPut]
         public async Task<ChildDTO> Put([FromBody] ChildDTO value)
         {
-            return await _Child.Update(value);
+            return await _Child.UpdateAsync(value);
         }
 
         // DELETE api/<ChildController>/5
         [HttpDelete("{id}")]
         public async Task Delete(int id)
         {
-            await _Child.Delete(id);
+            await _Child.DeleteAsync(id);
         }
     }
 }

@@ -21,30 +21,32 @@ namespace Pract.Services.Entities
             _UserRepository = childRepository;
         }
 
-        public async Task<UserDTO> Add(UserDTO entity)
+        public async Task<UserDTO> AddAsync(UserDTO entity)
         {
             return _mapper.Map<UserDTO>(await _UserRepository.AddAsync(_mapper.Map<User>(entity)));
         }
 
-        public async Task Delete(int id)
+        public async Task DeleteAsync(int id)
         {
             await _UserRepository.DeleteAsync(id);
 
         }
 
-        public async Task<List<UserDTO>> GetAll()
+        public async Task<List<UserDTO>> GetAllAsync()
         {
             return _mapper.Map<List<UserDTO>>(await _UserRepository.GetAllAsync());
         }
 
-        public async Task<UserDTO> GetById(int id)
+        public async Task<UserDTO> GetByIdAsync(int id)
         {
             return _mapper.Map<UserDTO>(await _UserRepository.GetByIdAsync(id));
         }
 
-        public async Task<UserDTO> Update(UserDTO entity)
+        public async Task<UserDTO> UpdateAsync(UserDTO entity)
         {
-            return _mapper.Map<UserDTO>(await _UserRepository.UpdateAsync(_mapper.Map<User>(entity)));
+            User user=_mapper.Map<User>(entity);
+            user=await _UserRepository.UpdateAsync(user);
+            return _mapper.Map<UserDTO>(user);
         }
     }
 }

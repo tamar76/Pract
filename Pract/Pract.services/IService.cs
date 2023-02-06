@@ -8,10 +8,10 @@ namespace Pract.Services
 {
     public interface IService<T>
     {
-        Task<T> GetById(int id);
-        Task<List<T>> GetAll();
-        Task<T> Add(T entity);
-        Task<T> Update(T entity);
-        Task Delete(int id);
+        Task<T> GetByIdAsync(int id);
+        Task<List<T>> GetAllAsync();
+        Task<T> AddAsync(T entity);
+        Task<T> UpdateAsync(T entity);
+        Task DeleteAsync(int id);
     }
 }

@@ -11,7 +11,7 @@ using Pract.Repository;
 namespace Pract.Repository.Migrations
 {
     [DbContext(typeof(Context))]
-    partial class ContextModelSnapshot : ModelSnapshot
+    partial class TamarPractContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {

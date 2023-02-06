@@ -2,6 +2,7 @@
 using Pract.common.DTO_s;
 using Pract.Repository.Entities;
 using Pract.Repository.Interfaces;
+using Pract.Repository.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,29 +21,31 @@ namespace Pract.Services.Entities
             _ChildRepository = childRepository;
         }
     
-        public async  Task<ChildDTO> Add(ChildDTO entity)
+        public async  Task<ChildDTO> AddAsync(ChildDTO entity)
         {
             return _mapper.Map<ChildDTO>(await _ChildRepository.AddAsync(_mapper.Map<Child>(entity)));
         }
 
-        public async Task Delete(int id)
+        public async Task DeleteAsync(int id)
         {
              await _ChildRepository.DeleteAsync(id);  
         }
 
-        public async Task<List<ChildDTO>> GetAll()
+        public async Task<List<ChildDTO>> GetAllAsync()
         {
             return _mapper.Map<List<ChildDTO>>(await _ChildRepository.GetAllAsync());
         }
 
-        public async Task<ChildDTO> GetById(int id)
+        public async Task<ChildDTO> GetByIdAsync(int id)
         {
             return _mapper.Map<ChildDTO>(await _ChildRepository.GetByIdAsync(id));
         }
 
-        public async Task<ChildDTO> Update(ChildDTO entity)
+        public async Task<ChildDTO> UpdateAsync(ChildDTO entity)
         {
-            return _mapper.Map<ChildDTO>(await _ChildRepository.UpdateAsync(_mapper.Map<Child>(entity)));
+            Child child = _mapper.Map<Child>(entity);
+            child = await _ChildRepository.UpdateAsync(child);
+            return _mapper.Map<ChildDTO>(child);
         }
     }
 }

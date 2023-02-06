@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 using Pract.Repository.Entities;
 using Pract.Repository.Repositories;
 using System;
@@ -16,7 +17,7 @@ namespace Pract.Repository
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=(localDb)\\msSQLlocalDb;Initial Catalog=liftProject;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            optionsBuilder.UseSqlServer("Data Source=sqlsrv;Initial Catalog=tamarpract;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
         }
     }
 }
