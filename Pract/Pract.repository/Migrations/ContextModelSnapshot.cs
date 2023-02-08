@@ -11,7 +11,7 @@ using Pract.Repository;
 namespace Pract.Repository.Migrations
 {
     [DbContext(typeof(Context))]
-    partial class TamarPractContextModelSnapshot : ModelSnapshot
+    partial class ContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
@@ -21,31 +21,6 @@ namespace Pract.Repository.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
-
-            modelBuilder.Entity("Pract.Repository.Entities.Child", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("BirthDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Parent")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("Parent");
-
-                    b.ToTable("ChildContext");
-                });
 
             modelBuilder.Entity("Pract.Repository.Entities.User", b =>
                 {
@@ -58,14 +33,15 @@ namespace Pract.Repository.Migrations
                     b.Property<DateTime>("BirthDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("Children")
-                        .HasColumnType("int");
-
                     b.Property<string>("FirstName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("HMO")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Identity")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -77,20 +53,13 @@ namespace Pract.Repository.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ParentId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.ToTable("UserContext");
-                });
-
-            modelBuilder.Entity("Pract.Repository.Entities.Child", b =>
-                {
-                    b.HasOne("Pract.Repository.Entities.User", "ParentId")
-                        .WithMany()
-                        .HasForeignKey("Parent")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("ParentId");
                 });
 #pragma warning restore 612, 618
         }

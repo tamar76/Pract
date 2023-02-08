@@ -13,40 +13,20 @@ namespace Pract.Services.Entities
 {
     public class UserService : IService<UserDTO>
     {
-        private readonly IMapper _mapper;
-        private readonly IDataRepository<User> _UserRepository;
+        private readonly IMapper _Mapper;
+        private readonly IDataRepository<User> _userRepository;
         public UserService(IMapper mapper, IDataRepository<User> childRepository)
         {
-            _mapper = mapper;
-            _UserRepository = childRepository;
+            _Mapper = mapper;
+            _userRepository = childRepository;
         }
 
-        public async Task<UserDTO> AddAsync(UserDTO entity)
+     
+        public async Task<List<UserDTO>> Add(List<UserDTO> entity)
         {
-            return _mapper.Map<UserDTO>(await _UserRepository.AddAsync(_mapper.Map<User>(entity)));
+            return _Mapper.Map<List<UserDTO>>(await _userRepository.AddAsync(_Mapper.Map<List<User>>(entity)));
         }
 
-        public async Task DeleteAsync(int id)
-        {
-            await _UserRepository.DeleteAsync(id);
-
-        }
-
-        public async Task<List<UserDTO>> GetAllAsync()
-        {
-            return _mapper.Map<List<UserDTO>>(await _UserRepository.GetAllAsync());
-        }
-
-        public async Task<UserDTO> GetByIdAsync(int id)
-        {
-            return _mapper.Map<UserDTO>(await _UserRepository.GetByIdAsync(id));
-        }
-
-        public async Task<UserDTO> UpdateAsync(UserDTO entity)
-        {
-            User user=_mapper.Map<User>(entity);
-            user=await _UserRepository.UpdateAsync(user);
-            return _mapper.Map<UserDTO>(user);
-        }
+       
     }
 }

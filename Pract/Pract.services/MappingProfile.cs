@@ -14,7 +14,7 @@ namespace Pract.Services
         public MappingProfile()
         {
             CreateMap<User, UserDTO>().ReverseMap();
-            CreateMap<Child, ChildDTO>().ReverseMap();
+          
         }
 
 

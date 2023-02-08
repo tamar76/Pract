@@ -1,4 +1,4 @@
-﻿namespace Pract
+﻿amespace Pract
 {
     
 }

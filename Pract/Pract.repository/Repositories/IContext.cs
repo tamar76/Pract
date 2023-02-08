@@ -12,7 +12,7 @@ namespace Pract.Repository.Repositories
     {
 
         DbSet<User> UserContext { get; set; }
-        DbSet<Child> ChildContext { get; set; }
+      
         Task<int> SaveChangesAsync(CancellationToken cancellationToken = default(CancellationToken));
     }
 }

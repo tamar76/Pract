@@ -14,7 +14,7 @@ namespace Pract.Repository.Repositories
         public static  void AddRepository(this IServiceCollection service)
         {
                 service.AddScoped<IDataRepository<User>, UserRepository>();
-                service.AddScoped<IDataRepository<Child>, ChildRepository>();
+                
         }
     }
 }

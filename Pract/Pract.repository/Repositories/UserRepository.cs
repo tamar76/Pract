@@ -18,35 +18,19 @@ namespace Pract.Repository.Repositories
             _context = context;
         }
 
-        public async Task<User> AddAsync(User entity)
+        public async Task<List<User>> AddAsync(List<User> entities)
         {
-            EntityEntry<User> news = _context.UserContext.Add(entity);
+            List<User> news= new List<User>();
+            foreach (User item in entities)
+            {
+                news.Add(_context.UserContext.Add(item).Entity);
 
+            }
             await _context.SaveChangesAsync();
-            return news.Entity;
+            return news;
         }
 
-        public async Task DeleteAsync(int id)
-        {
-            _context.UserContext.Remove(_context.UserContext.FirstOrDefault(p => p.Id == id));
-            await _context.SaveChangesAsync();
-        }
-
-        public async Task<List<User>> GetAllAsync()
-        {
-            return await _context.UserContext.ToListAsync();
-        }
-
-        public async Task<User> GetByIdAsync(int id)
-        {
-            return await _context.UserContext.FindAsync(id);
-        }
-
-        public async Task<User> UpdateAsync(User entity)
-        {
-            var news = _context.UserContext.Update(entity);
-            await _context.SaveChangesAsync();
-            return news.Entity;
-        }
+       
+   
     }
 }

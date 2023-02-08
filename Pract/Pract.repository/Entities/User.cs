@@ -9,11 +9,12 @@ namespace Pract.Repository.Entities
     public class User
     {
         public int Id { get; set; }
+        public string Identity { get; set; }
+        public string ParentId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime BirthDate { get; set; }
         public string MaleOrFemale { get; set; }
         public string HMO { get; set; }
-        public int Children { get; set; }
     }
 }

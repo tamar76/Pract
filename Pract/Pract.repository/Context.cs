@@ -13,11 +13,10 @@ namespace Pract.Repository
     public class Context:DbContext,IContext
     {
         public DbSet<User> UserContext { get; set; }
-        public DbSet<Child> ChildContext { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=sqlsrv;Initial Catalog=tamarpract;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            optionsBuilder.UseSqlServer(@"Data Source=sqlsrv;Initial Catalog=tamarpracti;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
         }
     }
 }

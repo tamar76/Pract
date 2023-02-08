@@ -17,7 +17,7 @@ namespace Pract.Services
         {
             service.AddRepository();
             service.AddScoped<IService<UserDTO>, UserService>();
-            service.AddScoped<IService<ChildDTO>,ChildService>();
+         
             service.AddSingleton<IContext, Context>();
             service.AddAutoMapper(typeof(MappingProfile));
 

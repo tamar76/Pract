@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Pract.common.DTO_s;
-using Pract.Repository.Entities;
+//using Pract.Repository.Entities;
 using Pract.Services;
+using System.Collections.Generic;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -16,40 +17,18 @@ namespace API.Controllers
         {
             _User = User;
         }
-        // GET: api/<ValuesController>
+      
        
-        [HttpGet]
-        public async Task<List<UserDTO>> Get()
-        {
-            return await _User.GetAllAsync();
-        }
-
-        // GET api/<ValuesController>/5
-        [HttpGet("{id}")]
-        public async Task<UserDTO> Get(int id)
-        {
-            return await _User.GetByIdAsync(id);
-        }
+    
+       
 
         // POST api/<ValuesController>
         [HttpPost]
-        public async Task<UserDTO> Post([FromBody] UserDTO value)
+       
+        public async Task<List<UserDTO>> Post([FromBody] List<UserDTO> value)
         {
-            return await _User.AddAsync(value);
+            return await _User.Add(value);
         }
 
-        // PUT api/<ValuesController>/5
-        [HttpPut]
-        public async Task<UserDTO> Put([FromBody] UserDTO value)
-        {
-            return await _User.UpdateAsync(value);
-        }
-
-        // DELETE api/<ValuesController>/5
-        [HttpDelete("{id}")]
-        public async Task Delete(int id)
-        {
-            await _User.DeleteAsync(id);
-        }
     }
 }
