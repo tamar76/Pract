@@ -30,7 +30,7 @@ namespace Pract.Repository.Repositories
             return news;
         }
 
-       
+     
    
     }
 }
