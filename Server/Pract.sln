@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.3.32901.215
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pract.Common", "Pract.common\Pract.Common.csproj", "{CA9749B6-5245-4042-884B-D9848B5A8A2A}"
 EndProject
@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pract.Repository", "Pract.r
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pract.Services", "Pract.services\Pract.Services.csproj", "{4ADD6A95-DB12-42AB-8508-DC2FC8646897}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{7E2B3A09-F426-4090-A184-D19177DE6608}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pract.API", "API\Pract.API.csproj", "{7E2B3A09-F426-4090-A184-D19177DE6608}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
