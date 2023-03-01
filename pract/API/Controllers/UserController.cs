@@ -24,7 +24,7 @@ namespace API.Controllers
 
         // POST api/<ValuesController>
         [HttpPost]
-       
+        [Route("Post")]
         public async Task<List<UserDTO>> Post([FromBody] List<UserDTO> value)
         {
             return await _User.Add(value);

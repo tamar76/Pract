@@ -16,8 +16,6 @@ namespace Pract.common.DTO_s
         public DateTime BirthDate { get; set; }
         public string MaleOrFemale { get; set; }
         public string  HMO { get; set; }
-        public int Children { get; set; }
-     
     }
 
 }
