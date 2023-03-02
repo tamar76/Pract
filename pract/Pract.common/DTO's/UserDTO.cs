@@ -12,7 +12,7 @@ namespace Pract.common.DTO_s
         public string Identity { get; set; }
         public string ParentId { get; set; }
         public string FirstName { get; set; }
-        public string  LastName { get; set; }
+        public string LastName { get; set; }
         public DateTime BirthDate { get; set; }
         public string MaleOrFemale { get; set; }
         public string  HMO { get; set; }
