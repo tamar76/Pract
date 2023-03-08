@@ -1,0 +1,24 @@
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.common\bin\Debug\net6.0\Pract.Common.deps.json
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.common\bin\Debug\net6.0\Pract.Common.dll
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.common\bin\Debug\net6.0\Pract.Common.pdb
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.common\obj\Debug\net6.0\Pract.Common.csproj.AssemblyReference.cache
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.common\obj\Debug\net6.0\Pract.Common.GeneratedMSBuildEditorConfig.editorconfig
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.common\obj\Debug\net6.0\Pract.Common.AssemblyInfoInputs.cache
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.common\obj\Debug\net6.0\Pract.Common.AssemblyInfo.cs
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.common\obj\Debug\net6.0\Pract.Common.csproj.CoreCompileInputs.cache
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.common\obj\Debug\net6.0\Pract.Common.dll
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.common\obj\Debug\net6.0\refint\Pract.Common.dll
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.common\obj\Debug\net6.0\Pract.Common.pdb
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.common\obj\Debug\net6.0\ref\Pract.Common.dll
+C:\Test\Test\pract\Pract.common\bin\Debug\net6.0\Pract.Common.deps.json
+C:\Test\Test\pract\Pract.common\bin\Debug\net6.0\Pract.Common.dll
+C:\Test\Test\pract\Pract.common\bin\Debug\net6.0\Pract.Common.pdb
+C:\Test\Test\pract\Pract.common\obj\Debug\net6.0\Pract.Common.csproj.AssemblyReference.cache
+C:\Test\Test\pract\Pract.common\obj\Debug\net6.0\Pract.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Test\Test\pract\Pract.common\obj\Debug\net6.0\Pract.Common.AssemblyInfoInputs.cache
+C:\Test\Test\pract\Pract.common\obj\Debug\net6.0\Pract.Common.AssemblyInfo.cs
+C:\Test\Test\pract\Pract.common\obj\Debug\net6.0\Pract.Common.csproj.CoreCompileInputs.cache
+C:\Test\Test\pract\Pract.common\obj\Debug\net6.0\Pract.Common.dll
+C:\Test\Test\pract\Pract.common\obj\Debug\net6.0\refint\Pract.Common.dll
+C:\Test\Test\pract\Pract.common\obj\Debug\net6.0\Pract.Common.pdb
+C:\Test\Test\pract\Pract.common\obj\Debug\net6.0\ref\Pract.Common.dll

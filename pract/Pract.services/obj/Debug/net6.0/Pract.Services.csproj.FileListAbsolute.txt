@@ -1,0 +1,38 @@
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.services\bin\Debug\net6.0\Pract.Services.deps.json
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.services\bin\Debug\net6.0\Pract.Services.dll
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.services\bin\Debug\net6.0\Pract.Services.pdb
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.services\obj\Debug\net6.0\Pract.Services.csproj.AssemblyReference.cache
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.services\obj\Debug\net6.0\Pract.Services.GeneratedMSBuildEditorConfig.editorconfig
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.services\obj\Debug\net6.0\Pract.Services.AssemblyInfoInputs.cache
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.services\obj\Debug\net6.0\Pract.Services.AssemblyInfo.cs
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.services\obj\Debug\net6.0\Pract.Services.csproj.CoreCompileInputs.cache
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.services\obj\Debug\net6.0\Pract.Services.dll
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.services\obj\Debug\net6.0\refint\Pract.Services.dll
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.services\obj\Debug\net6.0\Pract.Services.pdb
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.services\obj\Debug\net6.0\ref\Pract.Services.dll
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.services\bin\Debug\net6.0\Pract.Common.dll
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.services\bin\Debug\net6.0\Pract.Repository.dll
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.services\bin\Debug\net6.0\Pract.Common.pdb
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.services\bin\Debug\net6.0\Pract.Repository.pdb
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.services\obj\Debug\net6.0\Pract.Services.csproj.CopyComplete
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.services\bin\Debug\net6.0\Pract.Services.runtimeconfig.json
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.services\obj\Debug\net6.0\Pract.Services.genruntimeconfig.cache
+C:\Test\Test\pract\Pract.services\obj\Debug\net6.0\Pract.Services.csproj.AssemblyReference.cache
+C:\Test\Test\pract\Pract.services\obj\Debug\net6.0\Pract.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Test\Test\pract\Pract.services\obj\Debug\net6.0\Pract.Services.AssemblyInfoInputs.cache
+C:\Test\Test\pract\Pract.services\obj\Debug\net6.0\Pract.Services.AssemblyInfo.cs
+C:\Test\Test\pract\Pract.services\obj\Debug\net6.0\Pract.Services.csproj.CoreCompileInputs.cache
+C:\Test\Test\pract\Pract.services\obj\Debug\net6.0\Pract.Services.dll
+C:\Test\Test\pract\Pract.services\obj\Debug\net6.0\refint\Pract.Services.dll
+C:\Test\Test\pract\Pract.services\obj\Debug\net6.0\Pract.Services.pdb
+C:\Test\Test\pract\Pract.services\bin\Debug\net6.0\Pract.Services.deps.json
+C:\Test\Test\pract\Pract.services\bin\Debug\net6.0\Pract.Services.runtimeconfig.json
+C:\Test\Test\pract\Pract.services\bin\Debug\net6.0\Pract.Services.dll
+C:\Test\Test\pract\Pract.services\bin\Debug\net6.0\Pract.Services.pdb
+C:\Test\Test\pract\Pract.services\bin\Debug\net6.0\Pract.Common.dll
+C:\Test\Test\pract\Pract.services\bin\Debug\net6.0\Pract.Repository.dll
+C:\Test\Test\pract\Pract.services\bin\Debug\net6.0\Pract.Common.pdb
+C:\Test\Test\pract\Pract.services\bin\Debug\net6.0\Pract.Repository.pdb
+C:\Test\Test\pract\Pract.services\obj\Debug\net6.0\Pract.Services.csproj.CopyComplete
+C:\Test\Test\pract\Pract.services\obj\Debug\net6.0\Pract.Services.genruntimeconfig.cache
+C:\Test\Test\pract\Pract.services\obj\Debug\net6.0\ref\Pract.Services.dll

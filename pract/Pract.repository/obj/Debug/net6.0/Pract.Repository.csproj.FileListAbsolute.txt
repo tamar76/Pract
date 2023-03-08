@@ -1,0 +1,28 @@
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.repository\bin\Debug\net6.0\Pract.Repository.deps.json
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.repository\bin\Debug\net6.0\Pract.Repository.runtimeconfig.json
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.repository\bin\Debug\net6.0\Pract.Repository.dll
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.repository\bin\Debug\net6.0\Pract.Repository.pdb
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.repository\obj\Debug\net6.0\Pract.Repository.csproj.AssemblyReference.cache
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.repository\obj\Debug\net6.0\Pract.Repository.GeneratedMSBuildEditorConfig.editorconfig
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.repository\obj\Debug\net6.0\Pract.Repository.AssemblyInfoInputs.cache
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.repository\obj\Debug\net6.0\Pract.Repository.AssemblyInfo.cs
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.repository\obj\Debug\net6.0\Pract.Repository.csproj.CoreCompileInputs.cache
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.repository\obj\Debug\net6.0\Pract.Repository.dll
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.repository\obj\Debug\net6.0\refint\Pract.Repository.dll
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.repository\obj\Debug\net6.0\Pract.Repository.pdb
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.repository\obj\Debug\net6.0\Pract.Repository.genruntimeconfig.cache
+Y:\Groups\2\זלביץ תמר\pract\Pract\Pract.repository\obj\Debug\net6.0\ref\Pract.Repository.dll
+C:\Test\Test\pract\Pract.repository\bin\Debug\net6.0\Pract.Repository.deps.json
+C:\Test\Test\pract\Pract.repository\bin\Debug\net6.0\Pract.Repository.runtimeconfig.json
+C:\Test\Test\pract\Pract.repository\bin\Debug\net6.0\Pract.Repository.dll
+C:\Test\Test\pract\Pract.repository\bin\Debug\net6.0\Pract.Repository.pdb
+C:\Test\Test\pract\Pract.repository\obj\Debug\net6.0\Pract.Repository.csproj.AssemblyReference.cache
+C:\Test\Test\pract\Pract.repository\obj\Debug\net6.0\Pract.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Test\Test\pract\Pract.repository\obj\Debug\net6.0\Pract.Repository.AssemblyInfoInputs.cache
+C:\Test\Test\pract\Pract.repository\obj\Debug\net6.0\Pract.Repository.AssemblyInfo.cs
+C:\Test\Test\pract\Pract.repository\obj\Debug\net6.0\Pract.Repository.csproj.CoreCompileInputs.cache
+C:\Test\Test\pract\Pract.repository\obj\Debug\net6.0\Pract.Repository.dll
+C:\Test\Test\pract\Pract.repository\obj\Debug\net6.0\refint\Pract.Repository.dll
+C:\Test\Test\pract\Pract.repository\obj\Debug\net6.0\Pract.Repository.pdb
+C:\Test\Test\pract\Pract.repository\obj\Debug\net6.0\Pract.Repository.genruntimeconfig.cache
+C:\Test\Test\pract\Pract.repository\obj\Debug\net6.0\ref\Pract.Repository.dll
